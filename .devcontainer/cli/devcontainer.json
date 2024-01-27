@@ -1,7 +1,7 @@
 {
   "features": {
     "ghcr.io/devcontainers/features/nix:1": {
-      "packages": "nushellFull,zellij,ripgrep,fd,jq,eza",
+      "packages": "nushell,zellij,ripgrep,fd,jq,eza,bat,htop",
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/sshd:1": {}

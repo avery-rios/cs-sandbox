@@ -9,7 +9,15 @@ in  \(config : { gui : Bool }) ->
           , packages =
               concatSep
                 ","
-                [ "nushellFull", "zellij", "ripgrep", "fd", "jq", "eza" ]
+                [ "nushell"
+                , "zellij"
+                , "ripgrep"
+                , "fd"
+                , "jq"
+                , "eza"
+                , "bat"
+                , "htop"
+                ]
           }
         , `ghcr.io/devcontainers/features/sshd:1` = {=}
         , `ghcr.io/devcontainers/features/desktop-lite:1` =
