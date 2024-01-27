@@ -1,6 +1,5 @@
 \(config : { gui : Bool }) ->
   { privileged = True
-  , image = "mcr.microsoft.com/devcontainers/universal:linux"
   , features =
     { `ghcr.io/devcontainers/features/nix:1`.extraNixConfig
       =

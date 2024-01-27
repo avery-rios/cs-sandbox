@@ -9,6 +9,5 @@
       "extraNixConfig": "experimental-features = nix-command flakes ca-derivations\n"
     }
   },
-  "image": "mcr.microsoft.com/devcontainers/universal:linux",
   "privileged": true
 }
